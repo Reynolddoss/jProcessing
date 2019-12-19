@@ -4,7 +4,7 @@ from __future__ import division
 import sys, subprocess, argparse
 from subprocess import call
 from jNlp.jTokenize import jTokenize
-from jNlp.jColor import color
+# from jNlp.jColor import color
 
 class Sentiment(object):
     def train(self, senti_path, wnjpn_path):
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     print 'pos score = {0}, neg score = {1}'.format(positive_score, negative_score)
 
     text = u'監督、俳優、ストーリー、演出、全部最高！'
-    print classifier.baseline(text)
+    # print classifier.baseline(text)
     
     
 
